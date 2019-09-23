@@ -40,7 +40,7 @@ export default {
 	},
 	beforeDestroy() {
 		if (mySwiper) {
-			mySwiper.deleteInstance();
+			mySwiper.destroy();
 		}
 	},
 	mounted() {
