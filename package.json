@@ -1,7 +1,7 @@
 {
   "name": "zx-swiper",
   "author": "chuzhixin <1204505056@qq.com>",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "main": "./components/export.js",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -11,8 +11,6 @@
   "dependencies": {
     "animate.css": "^3.7.2",
     "core-js": "^2.6.5",
-    "node-sass": "^4.12.0",
-    "sass-loader": "^8.0.0",
     "swiper": "^5.0.3",
     "vue": "^2.6.10"
   },
@@ -23,6 +21,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+	"node-sass": "^4.12.0",
+	"sass-loader": "^8.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
